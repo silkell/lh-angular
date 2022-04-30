@@ -1,0 +1,11 @@
+footer {
+  align-items: center;
+  text-align: center;
+
+  display: flex;
+  line-height: 20px;
+  background-color: rgb(98, 125, 199);
+  color: aqua;
+  padding-left: 45%;
+      
+  }

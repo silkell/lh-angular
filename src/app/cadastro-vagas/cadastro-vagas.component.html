@@ -1,0 +1,45 @@
+<div class="d-grid gap-2 col-6 mx-auto">
+    <h2>CADASTRO DE VAGAS</h2>
+    <br>
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-6">
+                <label for="id" class="form-label">Código da Vaga </label> <input
+                    class="form-control" type="text" value="id" name="id"
+                    aria-label="readonly input example" readonly> <br>
+                <br>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Salário: R$</span> <input
+                        type="number" class="form-control" name="remuneracao" required
+                        aria-label="Amount (to the nearest dollar)"> <span
+                        class="input-group-text">.00</span>
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Inserir Foto:</span>
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                </div>
+            </div>
+            <br>
+            <div class="col-6">
+                <label for="descricao" class="form-label">Descrição da
+                    Vaga </label>
+                <textarea class="form-control" name="descricao" required rows="7"></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="row g-1">
+            <div class="col-3">
+                <button class="btn btn-primary" type="submit" value="Enviar">Cadastrar</button> 
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-warning">Editar</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-danger">Excluir</button>
+            </div>
+        </div>
+        </div>
+        <br>
+
+    </div>

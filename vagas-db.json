@@ -1,0 +1,27 @@
+{
+  "vagas": [
+      {
+          "id":1,
+          "nome": "Analista de Sistemas",
+          "foto":"foto1.jpg",
+          "descricao":"Desenvolvimento de sistemas, Java",
+          "salario":7000
+      },
+      {
+          "id":2,
+          "nome": "Analista Jr",
+          "foto":"foto2.jpg",
+          "descricao":"Banco de dados SQL",
+          "salario":5000
+      },
+      {
+          "id":3,
+          "nome": "Estagiario",
+          "foto":"foto3.jpg",
+          "descricao":"Cursando Superior",
+          "salario":2000
+      }
+  ]   
+
+
+}
